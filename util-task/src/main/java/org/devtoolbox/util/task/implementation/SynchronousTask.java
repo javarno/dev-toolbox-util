@@ -92,7 +92,7 @@ public abstract class SynchronousTask implements Task {
         if (listenersCount == 0) {
             return;
         }
-        LOGGER.error("Task [{}] sending status change event from [{}] to [{}] to [{}] listeners ...", name, oldStatus, newStatus, listenersCount);
+        LOGGER.info("Task [{}] sending status change event from [{}] to [{}] to [{}] listeners ...", name, oldStatus, newStatus, listenersCount);
         sendTaskStatusEvent(oldStatus, newStatus);
     }
 
@@ -139,7 +139,7 @@ public abstract class SynchronousTask implements Task {
         if (listenersCount == 0) {
             return;
         }
-        LOGGER.error("Task [{}] sending completion event with status [{}] to [{}] listeners ...", name, executionStatus, listenersCount);
+        LOGGER.info("Task [{}] sending completion event with status [{}] to [{}] listeners ...", name, executionStatus, listenersCount);
         sendTaskCompletionEvent(executionStatus);
     }
 
