@@ -34,4 +34,9 @@ public class TaskException extends ParametricException {
     public TaskException(final TaskErrorType identifier, final Exception error, final Object[] parameters) {
         super(identifier, error, parameters);
     }
+
+    @Override
+    public TaskErrorType getIdentifier() {
+        return (TaskErrorType) super.getIdentifier();
+    }
 }
