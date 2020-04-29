@@ -27,11 +27,7 @@ public class TaskException extends ParametricException {
 	private static final long serialVersionUID = 900828329673700007L;
 
 
-    public TaskException(final TaskErrorType identifier, final Exception error) {
-        super(identifier, error);
-    }
-
-    public TaskException(final TaskErrorType identifier, final Exception error, final Object[] parameters) {
+    public TaskException(final TaskErrorType identifier, final Exception error, final Object...parameters) {
         super(identifier, error, parameters);
     }
 
