@@ -16,7 +16,7 @@
  */
 package org.devtoolbox.util.resource;
 
-import org.devtoolbox.util.exception.ParametricException;
+import org.devtoolbox.util.exception.ParametricCheckedException;
 
 
 /**
@@ -25,7 +25,7 @@ import org.devtoolbox.util.exception.ParametricException;
  * @author Arnaud Lecollaire
  * @see ResourceError
  */
-public class ResourceException extends ParametricException {
+public class ResourceException extends ParametricCheckedException {
 
 	private static final long serialVersionUID = 8143499481084018936L;
 

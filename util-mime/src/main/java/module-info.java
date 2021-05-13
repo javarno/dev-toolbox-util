@@ -22,7 +22,7 @@ module org.devtoolbox.util.mime {
 
     exports org.devtoolbox.util.mime;
 
-    requires org.apache.tika.core;
     requires org.slf4j;
+    requires tika.core;
 
 }
