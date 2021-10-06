@@ -24,6 +24,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-util</artifactId>
+  <version>1.8.0-SNAPSHOT</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -41,7 +42,6 @@
     <module>util-dimension</module>
     <module>util-filesystem</module>
     <module>util-id</module>
-    <module>util-http</module>
     <module>util-model</module>
     <module>util-mime</module>
     <module>util-resource</module>
