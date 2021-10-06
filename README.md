@@ -24,6 +24,7 @@ Parent pom for dev-toolbox.org java utility projects.
 - util-dimension : Mutable and immutable implementations of simple dimension objects with width and height.
 - util-exception : Runtime and checked implementations of parametric exceptions.
 - util-filesystem : Utility class for nio files handling.
+- util-http : Utility classes for http requests
 - util-id : Interface and default implementation for identifiable objects using String.
 - util-mime : File mime type detection using apache Tika.
 - util-model : Listeners and events for data model modification system.
@@ -33,6 +34,7 @@ Parent pom for dev-toolbox.org java utility projects.
 
 history
 -------
+- v1.8.0 2021/10/06 : jdk11 branch, downgraded slf4j-api to v1.7.32, logback to v1.2.6 / upgraded junit to v 5.8.1
 - v1.7.4 2021/05/13 : upgrade all util projects to use the same version of dev-toolbox-util
 - v1.7.3 2020/12/04 : upgrade javafx to 14.0.2.1, junit-jupiter to 5.7.0, surefire and failsafe plugins to 3.0.0-M5, moved util-exception and util-task to their own repository
 - v1.7.2 2020/04/29 : define surefire and failsafe plugins version and override asm version for java 14 compatibility
