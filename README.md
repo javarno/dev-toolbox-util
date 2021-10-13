@@ -34,6 +34,7 @@ Parent pom for dev-toolbox.org java utility projects.
 
 history
 -------
+- v1.8.1 2021/10/13 : moved util-id to its own repository
 - v1.8.0 2021/10/06 : jdk11 branch, downgraded slf4j-api to v1.7.32, logback to v1.2.6 / upgraded junit to v 5.8.1
 - v1.7.4 2021/05/13 : upgrade all util projects to use the same version of dev-toolbox-util
 - v1.7.3 2020/12/04 : upgrade javafx to 14.0.2.1, junit-jupiter to 5.7.0, surefire and failsafe plugins to 3.0.0-M5, moved util-exception and util-task to their own repository

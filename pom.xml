@@ -22,13 +22,14 @@
 
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
+  <version>1.8.1</version>
 
   <artifactId>dev-toolbox-util</artifactId>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
     <artifactId>dev-toolbox-parent</artifactId>
-    <version>1.8.0</version>
+    <version>1.8.3</version>
   </parent>
 
   <url>https://github.com/javarno/dev-toolbox-util</url>
@@ -40,7 +41,6 @@
     <module>util-clean</module>
     <module>util-dimension</module>
     <module>util-filesystem</module>
-    <module>util-id</module>
     <module>util-model</module>
     <module>util-mime</module>
     <module>util-resource</module>
