@@ -24,7 +24,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-util</artifactId>
-  <version>1.9.2</version>
+  <version>1.9.3-SNAPSHOT</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>

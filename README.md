@@ -33,7 +33,8 @@ Parent pom for dev-toolbox.org java utility projects.
 
 history
 -------
-- v1.9.0 2021/10/13 : java 17, upgraded slf4j-api to 2.0.0-alpha5, logback to 1.3.0-alpha10, junit to v 5.8.1, asm to 9.2
+- v1.9.2 2021/10/13 : fixed dev-toolbox.org maven repository location
+- v1.9.1 2021/10/13 : java 17, upgraded slf4j-api to 2.0.0-alpha5, logback to 1.3.0-alpha10, junit to v 5.8.1, asm to 9.2
 - v1.8.1 2021/10/13 : moved util-id to its own repository
 - v1.8.0 2021/10/06 : jdk11 branch, downgraded slf4j-api to v1.7.32, logback to v1.2.6 / upgraded junit to v 5.8.1
 - v1.7.4 2021/05/13 : upgrade all util projects to use the same version of dev-toolbox-util
