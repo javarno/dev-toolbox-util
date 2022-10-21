@@ -33,6 +33,7 @@ Parent pom for dev-toolbox.org java utility projects.
 
 history
 -------
+- v1.9.3 2022/10/21 : plugin versions upgrade, and slf4J / logback / junit
 - v1.9.2 2022/05/14 : fixed dev-toolbox.org maven repository location and history
 - v1.9.1 2022/05/14 : upgraded javaFX to v17.0.2, slf4j-api to 2.0.0-alpha7, logback to 1.3.0-alpha15
 - v1.9.0 2021/10/13 : java 17, upgraded slf4j-api to 2.0.0-alpha5, logback to 1.3.0-alpha10, junit to v 5.8.1, asm to 9.2
