@@ -17,14 +17,13 @@
   - CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
   - OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-util</artifactId>
-  <version>1.9.3-SNAPSHOT</version>
+  <version>1.9.3</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -35,6 +34,7 @@
   <url>https://github.com/javarno/dev-toolbox-util</url>
   <scm>
     <connection>scm:git:https://github.com/javarno/dev-toolbox-util.git</connection>
+    <tag>v1.9.3</tag>
   </scm>
 
   <modules>
