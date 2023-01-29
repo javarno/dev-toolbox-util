@@ -28,7 +28,7 @@
   <parent>
     <groupId>org.dev-toolbox</groupId>
     <artifactId>dev-toolbox-parent</artifactId>
-    <version>2.0.5</version>
+    <version>2.0.6</version>
   </parent>
 
   <url>https://github.com/javarno/dev-toolbox-util</url>
@@ -36,13 +36,4 @@
     <connection>scm:git:https://github.com/javarno/dev-toolbox-util.git</connection>
     <tag>v1.9.3</tag>
   </scm>
-
-  <modules>
-    <module>util-clean</module>
-    <module>util-dimension</module>
-    <module>util-filesystem</module>
-    <module>util-model</module>
-    <module>util-mime</module>
-    <module>util-thread</module>
-  </modules>
 </project>
