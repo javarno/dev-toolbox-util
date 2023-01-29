@@ -23,7 +23,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-util</artifactId>
-  <version>1.9.4-SNAPSHOT</version>
+  <version>1.9.4</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -34,6 +34,6 @@
   <url>https://github.com/javarno/dev-toolbox-util</url>
   <scm>
     <connection>scm:git:https://github.com/javarno/dev-toolbox-util.git</connection>
-    <tag>v1.9.3</tag>
+    <tag>v1.9.4</tag>
   </scm>
 </project>
