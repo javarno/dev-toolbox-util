@@ -33,11 +33,12 @@ Parent pom for dev-toolbox.org java utility projects.
 
 history
 -------
-- v1.9.4 2023/01/29 : plugin versions upgrade, and slf4J / logback / junit
-- v1.9.3 2022/10/21 : plugin versions upgrade, and slf4J / logback / junit
+- v1.9.5 2023/09/20 : plugins versions upgrade, upgraded javaFX to v17.0.8, slf4j-api to v2.0.9, logback to v1.4.11 and junit to v5.10.0
+- v1.9.4 2023/01/29 : plugins versions upgrade, and slf4J / logback / junit
+- v1.9.3 2022/10/21 : plugins versions upgrade, and slf4J / logback / junit
 - v1.9.2 2022/05/14 : fixed dev-toolbox.org maven repository location and history
-- v1.9.1 2022/05/14 : upgraded javaFX to v17.0.2, slf4j-api to 2.0.0-alpha7, logback to 1.3.0-alpha15
-- v1.9.0 2021/10/13 : java 17, upgraded slf4j-api to 2.0.0-alpha5, logback to 1.3.0-alpha10, junit to v 5.8.1, asm to 9.2
+- v1.9.1 2022/05/14 : upgraded javaFX to v17.0.2, slf4j-api to v2.0.0-alpha7 and logback to v1.3.0-alpha15
+- v1.9.0 2021/10/13 : java 17, upgraded slf4j-api to 2.0.0-alpha5, logback to v1.3.0-alpha10, junit to v 5.8.1 and asm to v9.2
 - v1.8.1 2021/10/13 : moved util-id to its own repository
 - v1.8.0 2021/10/06 : jdk11 branch, downgraded slf4j-api to v1.7.32, logback to v1.2.6 / upgraded junit to v 5.8.1
 - v1.7.4 2021/05/13 : upgrade all util projects to use the same version of dev-toolbox-util
